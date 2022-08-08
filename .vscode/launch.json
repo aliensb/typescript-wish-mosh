@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "lesson1",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/lesson1/src/index.ts",
+            "preLaunchTask": "tsc: build - lesson1/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/lesson1/**/*.js"
+            ]
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "lesson2",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/lesson2/src/index.ts",
+            "preLaunchTask": "tsc: build - lesson2/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/lesson2/**/*.js"
+            ]
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "lesson3",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/lesson3/src/index.ts",
+            "preLaunchTask": "tsc: build - lesson3/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/lesson3/**/*.js"
+            ]
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "lesson4",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/lesson4/src/index.ts",
+            "preLaunchTask": "tsc: build - lesson4/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/lesson4/**/*.js"
+            ]
+        }
+    ]
+}
