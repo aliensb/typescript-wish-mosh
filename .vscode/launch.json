@@ -55,6 +55,19 @@
             "outFiles": [
                 "${workspaceFolder}/lesson4/**/*.js"
             ]
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "lesson5",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/lesson5/src/index.ts",
+            "preLaunchTask": "tsc: build - lesson5/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/lesson5/**/*.js"
+            ]
         }
     ]
 }
